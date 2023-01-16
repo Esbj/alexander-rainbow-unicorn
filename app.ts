@@ -10,10 +10,8 @@ const o: { name: string; age: number; isAwesome: boolean } = {
 
 console.log(o);
 
-function greeter(input: string): string | void {
-  if (input === "X") {
-    return `Hej ${input}`;
-  }
+function greeter(input: string): string {
+  return `Hej ${input}`;
 }
 
 for (const animal of djur) {
