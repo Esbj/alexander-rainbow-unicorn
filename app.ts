@@ -12,7 +12,7 @@ console.log(o);
 
 function greeter(input: string): string | void {
   if (input === "X") {
-    return `Hej${input}`;
+    return `Hej ${input}`;
   }
 }
 
