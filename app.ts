@@ -7,3 +7,5 @@ const o: { name: string; age: number; isAwesome: boolean } = {
   age: 57,
   isAwesome: true
 };
+
+console.log(o);
